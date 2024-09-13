@@ -1,0 +1,4 @@
+horseStoreHuffTest:testReadHorseStore() (gas: 10335)
+horseStoreHuffTest:testWriteHorseStore(uint256) (runs: 257, μ: 30687, ~: 30997)
+horseStoreTest:testReadHorseStore() (gas: 10455)
+horseStoreTest:testWriteHorseStore(uint256) (runs: 257, μ: 30952, ~: 31262)
