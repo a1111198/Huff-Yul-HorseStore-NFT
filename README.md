@@ -44,18 +44,6 @@ Useful for understanding how Solidity compiles to bytecode, identifying gas opti
 - `safeTransferFrom` with `onERC721Received` callback handling
 - Storage mapping calculations via keccak256
 
----
-
-## Gas Usage & Benchmarks
-
-Below is a real gas snapshot from Foundry, comparing deployment and function call costs for different contract versions. This demonstrates the practical impact of low-level optimizations and is a key metric for smart contract engineering.
-
-![Gas Snapshot](./.github/gas-snapshot.png)
-
-- **Top:** V1 and Yul contract deployment/function costs
-- **Bottom:** V2 ERC721 contract deployment/function costs
-
----
 
 ## Architecture
 
